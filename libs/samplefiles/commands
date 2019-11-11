@@ -1,0 +1,14 @@
+Commands
+
+1. Find out where is your Android SDK Installed
+
+
+> adb install apk 
+> add shell
+> dumpsys window windows | grep -E 'mCurrentFocus'
+	> com.catseye.techkare/com.catseye.techkare.MainActivity
+
+appium --nodeconfig appium_node_oneplus7.json -p 4727 -bp 5727 -U 192.168.56.101:5555 --no-reset
+appium --nodeconfig appium_node_oneplus7.json -p 4727 -bp 5727 -U 9799e5cb --no-reset
+
+java -jar selenium-server-standalone.jar -role hub

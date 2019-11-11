@@ -1,0 +1,28 @@
+{
+  "capabilities": [
+    {
+      "version": "9",
+      "maxInstances": 5,
+      "platform": "android",
+      "deviceName": "oneplus7",
+      "UDID":"<<your mobile udid>>",
+      "browserName":"oneplus7"
+    }
+  ],
+  "configuration": {
+    "nodeTimeout":120,
+    "cleanUpCycle":2000,
+    "timeout":2000000,
+    "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "url":"http://127.0.0.1:4727/wd/hub",
+    "maxSession": 20,
+    "port": 4727,
+    "bootstrap_port": 5727,
+    "host": "127.0.0.1",
+    "register": true,
+    "registerCycle": 5000,
+    "hubPort": 4444,
+    "hubHost": "localhost",
+    "role":"node"
+  }
+}
