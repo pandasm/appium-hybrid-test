@@ -5,7 +5,7 @@
       "maxInstances": 5,
       "platform": "android",
       "deviceName": "oneplus7",
-      "UDID":"<<your mobile udid>>",
+      "UDID":"9799e5cb",
       "browserName":"oneplus7"
     }
   ],

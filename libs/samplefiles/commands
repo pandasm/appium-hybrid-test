@@ -4,7 +4,7 @@ Commands
 
 
 > adb install apk 
-> add shell
+> adb shell
 > dumpsys window windows | grep -E 'mCurrentFocus'
 	> com.catseye.techkare/com.catseye.techkare.MainActivity
 
