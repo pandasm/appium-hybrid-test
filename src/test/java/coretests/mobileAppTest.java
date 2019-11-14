@@ -1,5 +1,6 @@
 package coretests;
 
+import org.testng.annotations.Test;
 import java.io.InputStream;
 import java.net.URL;
 import java.util.Properties;
