@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="coretests.mobileAppTest"/>
+      <class name="coretests.mobileAppTestDombivilikar"/> <!-- coretests.mobileAppTestTechKare -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
